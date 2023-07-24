@@ -1,0 +1,26 @@
+.body
+    {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    }
+    contener
+    {
+        background-color: blue;
+    }
+    audio
+    {
+    list-style-type:none;
+    margin-top: 30px;
+    margin-right: 10px;
+    }
+    
+    h1
+    {
+    background-color: rgb(98, 153, 190);
+    font-style: italic;    
+    }
+
+
+
+

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> background image</title>
+<link rel="stylesheet"type="text/css"href="css/style.css">
+</head>
+<body>
+    <h1>HI HOW ARE YOU</h1>
+    
+    <style>
+
+    body
+    {
+     position: relative;
+     animation: myfirst 6s;
+     animation-direction: inherit;
+     background-image: url(background.png);
+     background-size: cover;
+     background-position: center;
+    }
+
+    
+    @keyframes myfirst
+    {  
+    0%   {background-image:url(background.png);}
+    25%  {background-image: url(2.jpg);}
+    50%  {background-image: url(3.jpg);}
+    75%  {background-image: url(4.jpg);}
+    100% {background-image: url(5.jpg);}
+    }
+
+    @keyframes h1 
+    {
+    0% {background-color: orange;}
+    25%{background-color: blue;}
+    50%{background-color: green;}
+    }
+
+    h1
+    {
+        animation: infinite;
+        animation: h1 6s;
+        font-size: 20px;
+        background-color: blueviolet;
+        
+    }
+</style>
+</body>
+</html>               
+    
